@@ -31,7 +31,7 @@ SQL;
     $stmt = $pdo->prepare($query);
     $stmt->execute([
         ':statut' => $_POST['statut'],
-        ':id' => $_POST['commandeId'] 
+        ':id' => $_POST['commandeId']  
     ]);
 }
 
